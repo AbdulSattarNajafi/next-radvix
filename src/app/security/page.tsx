@@ -62,9 +62,9 @@ export default function SecurityPage() {
                   <a
                     href="mailto:support@radvix.com"
                     className="text-primary underline"
-                    aria-label="Contact us via email"
+                    title="Our support email address"
                   >
-                    <span className="sr-only">click here</span>
+                    <span className="sr-only">click here to contact us</span>
                     support@radvix.com
                   </a>
                 </p>
