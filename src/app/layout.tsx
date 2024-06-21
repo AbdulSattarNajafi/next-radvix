@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Radvix | The First Project Management Tool Made For Researchers",
   openGraph: {
-    title: "Radvix",
+    title: "Radvix | The First Project Management Tool Made For Researchers",
     description:
       "Radvix | The First Project Management Tool Made For Researchers",
     url: "https://radvix.io/",
