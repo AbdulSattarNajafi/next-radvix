@@ -17,6 +17,7 @@ export default function SliderNav({
       variant="bordered"
       radius="full"
       isIconOnly
+      name={name}
       aria-label={name}
       size="sm"
       disabled={disabled}
