@@ -13,7 +13,13 @@ export const metadata: Metadata = {
   title: "Radvix",
   description: "The First Project Management Tool Made For Researchers",
   openGraph: {
-    images: "/opengraph-image.png",
+    images: [
+      {
+        url: "/opengraph-image.png", // Replace this with the actual URL of your logo
+        alt: "Radvix | The First Project Management Tool Made For Researchers",
+        type: "image/png", // or the appropriate image type
+      },
+    ],
     title: "Radvix",
     description: "The First Project Management Tool Made For Researchers",
     url: "https://radvix.io/",
