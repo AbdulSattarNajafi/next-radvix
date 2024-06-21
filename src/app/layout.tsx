@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: "Radvix | The First Project Management Tool Made For Researchers",
     description:
       "Radvix | The First Project Management Tool Made For Researchers",
-    url: "https://radvix.io/",
+    url: process.env.NEXT_PUBLIC_URL,
     siteName: "Radvix",
     locale: "en_US",
     type: "website",
