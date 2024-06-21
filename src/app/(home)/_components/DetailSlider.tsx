@@ -91,7 +91,7 @@ export default function DetailSlider({ sliderItems }: DetailSliderProps) {
             <FaChevronLeft />
           </SliderNav>
         </div>
-        <div className="flex-1 overflow-hidden xl:max-w-[1150px]" id="slider">
+        <div className="flex-1 overflow-hidden xl:max-w-[1150px]">
           <SlickSlider
             asNavFor={nav2!}
             ref={sliderRef1}

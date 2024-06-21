@@ -111,7 +111,6 @@ export default function Header() {
             </Button>
           </div>
           <button
-            name="Toggle Menu"
             aria-label="Toggle Menu"
             onClick={() => setIsMenuOpen((prevState) => !prevState)}
             className={cn(

@@ -85,7 +85,7 @@ export default function BestSlider({ sliderItems }: BestSliderProps) {
             <FaChevronLeft />
           </SliderNav>
         </div>
-        <div className="flex-1 overflow-hidden lg:max-w-[620px]" id="slider">
+        <div className="flex-1 overflow-hidden lg:max-w-[620px]">
           <SlickSlider
             asNavFor={nav2!}
             ref={sliderRef1}

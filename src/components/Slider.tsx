@@ -86,7 +86,7 @@ export default function Slider({
         >
           <FaChevronLeft />
         </SliderNav>
-        <div className="flex-1 overflow-hidden" id="slider">
+        <div className="flex-1 overflow-hidden">
           <SlickSlider
             asNavFor={nav2!}
             ref={sliderRef1}
