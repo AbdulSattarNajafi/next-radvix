@@ -13,18 +13,6 @@ export const metadata: Metadata = {
   title: "Radvix",
   description: "The First Project Management Tool Made For Researchers",
   openGraph: {
-    images: [
-      {
-        url: "/opengraph-image.png",
-        alt: "Radvix | The First Project Management Tool Made For Researchers",
-        type: "image/png",
-      },
-      {
-        url: "/opengraph-image.png",
-        alt: 'Radvix | The First Project Management Tool Made For Researchers',
-        type: 'image/png',
-      },
-    ],
     title: "Radvix",
     description: "The First Project Management Tool Made For Researchers",
     url: "https://radvix.io/",
@@ -36,9 +24,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Radvix",
     description: "The First Project Management Tool Made For Researchers",
-    images: "/twitter-image.png",
   },
-  themeColor: '#ffffff',
+  themeColor: "#ffffff",
 };
 
 export default function RootLayout({
