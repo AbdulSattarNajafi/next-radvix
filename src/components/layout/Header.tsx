@@ -111,6 +111,7 @@ export default function Header() {
             </Button>
           </div>
           <button
+            aria-label="Toggle Menu"
             onClick={() => setIsMenuOpen((prevState) => !prevState)}
             className={cn(
               "menu-toggler flex h-6 w-6 flex-col justify-between px-px py-0.5 lg:hidden",

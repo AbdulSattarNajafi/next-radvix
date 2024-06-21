@@ -47,6 +47,7 @@ export default function Footer() {
             target="_blank"
             href="https://www.linkedin.com/company/radvix/"
             className="flex h-7 w-7 items-center justify-center rounded-full bg-text-dark/50 text-lg text-white transition-all duration-200 hover:bg-text-dark/75 xl:h-5 xl:w-5 xl:text-sm"
+            aria-label="Visit our linkedin"
           >
             <FaLinkedinIn />
           </Link>
