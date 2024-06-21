@@ -15,9 +15,14 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "/opengraph-image.png", // Replace this with the actual URL of your logo
+        url: "/opengraph-image.png",
         alt: "Radvix | The First Project Management Tool Made For Researchers",
-        type: "image/png", // or the appropriate image type
+        type: "image/png",
+      },
+      {
+        url: "/opengraph-image.png",
+        alt: 'Radvix | The First Project Management Tool Made For Researchers',
+        type: 'image/png',
       },
     ],
     title: "Radvix",
@@ -33,6 +38,7 @@ export const metadata: Metadata = {
     description: "The First Project Management Tool Made For Researchers",
     images: "/twitter-image.png",
   },
+  themeColor: '#ffffff',
 };
 
 export default function RootLayout({
