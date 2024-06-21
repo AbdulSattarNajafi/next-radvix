@@ -124,7 +124,10 @@ export default function DetailSlider({ sliderItems }: DetailSliderProps) {
 
       <div className="mt-12 flex items-center md:mt-15 lg:mt-12 xl:gap-15 xl:px-10">
         <div className="hidden shrink-0 xl:block">
-          <SliderNav onClick={() => sliderRef1.current?.slickPrev()}>
+          <SliderNav
+            onClick={() => sliderRef1.current?.slickPrev()}
+            name="Previous Slide"
+          >
             <FaChevronLeft />
           </SliderNav>
         </div>
@@ -158,7 +161,10 @@ export default function DetailSlider({ sliderItems }: DetailSliderProps) {
           </SlickSlider>
         </div>
         <div className="hidden shrink-0 xl:block">
-          <SliderNav onClick={() => sliderRef1.current?.slickNext()}>
+          <SliderNav
+            onClick={() => sliderRef1.current?.slickNext()}
+            name="Next Slide"
+          >
             <FaChevronRight />
           </SliderNav>
         </div>

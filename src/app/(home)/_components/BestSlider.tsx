@@ -119,7 +119,10 @@ export default function BestSlider({ sliderItems }: BestSliderProps) {
 
       <div className="mt-12 flex items-center md:mt-15 lg:mt-12 lg:gap-10 lg:px-12">
         <div className="hidden shrink-0 lg:block">
-          <SliderNav onClick={() => sliderRef1.current?.slickPrev()}>
+          <SliderNav
+            onClick={() => sliderRef1.current?.slickPrev()}
+            name="Previous Slide"
+          >
             <FaChevronLeft />
           </SliderNav>
         </div>
@@ -155,7 +158,10 @@ export default function BestSlider({ sliderItems }: BestSliderProps) {
           </SlickSlider>
         </div>
         <div className="hidden shrink-0 lg:block">
-          <SliderNav onClick={() => sliderRef1.current?.slickNext()}>
+          <SliderNav
+            onClick={() => sliderRef1.current?.slickNext()}
+            name="Next Slide"
+          >
             <FaChevronRight />
           </SliderNav>
         </div>
