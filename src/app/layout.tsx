@@ -19,13 +19,26 @@ export const metadata: Metadata = {
     siteName: "Radvix",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/logo.png",
+        alt: "The First Project Management Tool Made For Researchers",
+        type: "image/png",
+      },
+      {
+        url: "/opengraph-image.png",
+        alt: "The First Project Management Tool Made For Researchers",
+        type: "image/png",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Radvix",
     description: "The First Project Management Tool Made For Researchers",
+    images: "/twitter-image.png",
   },
-  themeColor: "#ffffff",
+  themeColor: "#52525B",
 };
 
 export default function RootLayout({
