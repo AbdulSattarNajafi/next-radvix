@@ -13,6 +13,8 @@ export default function SliderNav({
 }: SliderNavProps) {
   return (
     <Button
+      role="button"
+      aria-labelledby="Slider"
       onClick={onClick}
       variant="bordered"
       radius="full"
