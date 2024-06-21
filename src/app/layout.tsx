@@ -10,26 +10,35 @@ import Footer from "@/components/layout/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Radvix | The First Project Management Tool Made For Researchers",
-  description:
-    "Radvix | The First Project Management Tool Made For Researchers",
+  title: "Radvix",
+  description: "The First Project Management Tool Made For Researchers",
   openGraph: {
-    title: "Radvix | The First Project Management Tool Made For Researchers",
-    description:
-      "Radvix | The First Project Management Tool Made For Researchers",
-    url: process.env.NEXT_PUBLIC_URL,
+    title: "Radvix",
+    description: "The First Project Management Tool Made For Researchers",
+    url: "https://radvix.io/",
     siteName: "Radvix",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/twitter-image.png",
+        alt: "The First Project Management Tool Made For Researchers",
+        type: "image/png",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Radvix | The First Project Management Tool Made For Researchers",
-    description:
-      "Radvix | The First Project Management Tool Made For Researchers",
-    images: "/twitter-image.png",
+    title: "Radvix",
+    description: "The First Project Management Tool Made For Researchers",
+    images: [
+      {
+        url: "/twitter-image.png",
+        alt: "The First Project Management Tool Made For Researchers",
+        type: "image/png",
+      },
+    ],
   },
-  themeColor: "#52525B",
 };
 
 export default function RootLayout({
